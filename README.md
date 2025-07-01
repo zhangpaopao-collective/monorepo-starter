@@ -1,0 +1,2 @@
+# monorepo-starter
+pnpm + ts
