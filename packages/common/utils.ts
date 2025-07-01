@@ -1,4 +1,4 @@
-import dayjs from 'dayjs';
+import dayjs from 'dayjs'
 
 /**
  * Format a given date to a specific format string using day.js
@@ -7,5 +7,5 @@ import dayjs from 'dayjs';
  * @returns The formatted date string
  */
 export function formatDate(date: dayjs.ConfigType, format: string = 'YYYY-MM-DD HH:mm:ss'): string {
-  return dayjs(date).format(format);
+  return dayjs(date).format(format)
 }

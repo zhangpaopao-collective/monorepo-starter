@@ -1,6 +1,10 @@
 import antfu from '@antfu/eslint-config'
 
 export default antfu({
-  unocss: true,
   vue: true,
+  regexp: {
+    overrides: {
+      'regexp/no-unused-capturing-group': 'off',
+    },
+  },
 })
