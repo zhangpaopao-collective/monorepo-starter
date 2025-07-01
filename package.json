@@ -2,6 +2,7 @@
   "name": "monorepo-starter",
   "private": true,
   "packageManager": "pnpm@9.15.9",
+  "type": "module",
   "engines": {
     "node": ">= 18"
   },
@@ -30,6 +31,6 @@
     }
   },
   "lint-staged": {
-    "*": "eslint --fix"
+    "*.{js,jsx,ts,tsx,vue}": "eslint --fix '**/*.{js,jsx,ts,tsx,vue}'"
   }
 }

@@ -140,3 +140,6 @@ vite.config.ts.timestamp-*
 
 # mac
 .DS_Store
+
+# nest
+app
